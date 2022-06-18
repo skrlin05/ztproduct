@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	height: 100vh;
+	background: #bdc3c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+	color: #FFFFFF;
+}
+/* 去掉无序列表的默认样式 */
+li{
+	list-style: none;
+}
+.box{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* 内容区域 */
+.content{
+	width: 1000px;
+	margin: auto;
+}
+/* 首页标题 */
+.title{
+	font-size: 30px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+/* 顶部 */
+.box-top{
+	display: flex;
+	justify-content: space-between;
+}
+.bt-l{
+	width: 650px;
+	font-size:36px;
+}
+.bt-l p{
+	line-height: 1.8;
+	margin-bottom: 20px;
+}
+.bt-l ul{
+	display: flex;
+	justify-content: space-between;
+}
+.bt-l ul li{
+	width: 48%;
+	height: 200px;
+}
+.bt-l ul li img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.bt-r{
+	width: 320px;
+}
+.bt-r img{
+	width: 100%;
+	height: 305px;
+	object-fit: cover;
+}
+/* 首页底部个人信息 */
+.box-bottom{
+	background: #FFFFFF;
+	color: #333333;
+	padding: 20px;
+}
+.box-bottom ul li {
+	display: flex;
+	align-items: center;
+	padding: 15px 0;
+	font-size: 18px;
+	color: #666666;
+	border-bottom: 1px dashed #CCCCCC;
+}
+.box-bottom ul li span{
+	font-weight: 600;
+	color: #333333;
+}
+.footer{
+	text-align: center;
+	margin-top: 10px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* 导航链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* 链接 - 修改颜色 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
